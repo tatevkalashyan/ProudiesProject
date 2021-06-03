@@ -164,7 +164,7 @@ body {
   }
   @media (max-width: 992px) {
     background-image: none;
-    background-color: $base-yellow;
+    background-color: #fffaf5;;
   }
 }
 .how-it-works {
@@ -537,6 +537,47 @@ a.btn-link {
       .page-link {
         background-color: $base-yellow;
       }
+    }
+  }
+}
+
+.register-for-teacher-page {
+  .section1 {
+    background-image: url("../../img/registerForTeacher/Group 1861.png");
+  }
+  .how-it-works {
+    .card-item:hover {
+      background-color: $base-yellow;
+      .a{
+        fill: $base-yellow;
+      }
+    }
+  }
+}
+.why-proudies-section {
+  background-color: #e8f1f3;
+  .title {
+    font: normal normal 600 25px/38px Poppins;
+    color: #000000;
+  }
+  .info-text {
+    font: normal normal 500 18px/27px Poppins;
+    color: #5D5D5D;
+    max-width: 930px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .card {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 0 17px #E8F1F3;
+    border-radius: 10px;
+    padding: 40px 60px;
+    width: 320px;
+    height: max-content;
+    .sub-title {
+      font: normal normal 500 18px/27px Poppins;
+      color: #000000;
+      border-bottom: 3px solid #8BB8C0;
     }
   }
 }

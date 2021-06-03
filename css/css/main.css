@@ -568,7 +568,7 @@ body {
   @media (max-width: 992px) {
     .yellow-bg {
       background-image: none;
-      background-color: #FBCA9A; } }
+      background-color: #fffaf5; } }
 
 .how-it-works .card-item {
   height: 381px;
@@ -859,6 +859,36 @@ a.btn-link {
     outline: none; }
 .pagination .page-item.active .page-link {
   background-color: #FBCA9A; }
+
+.register-for-teacher-page .section1 {
+  background-image: url("../../img/registerForTeacher/Group 1861.png"); }
+.register-for-teacher-page .how-it-works .card-item:hover {
+  background-color: #FBCA9A; }
+  .register-for-teacher-page .how-it-works .card-item:hover .a {
+    fill: #FBCA9A; }
+
+.why-proudies-section {
+  background-color: #e8f1f3; }
+  .why-proudies-section .title {
+    font: normal normal 600 25px/38px Poppins;
+    color: #000000; }
+  .why-proudies-section .info-text {
+    font: normal normal 500 18px/27px Poppins;
+    color: #5D5D5D;
+    max-width: 930px;
+    width: 100%;
+    padding: 0 10px; }
+  .why-proudies-section .card {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 0 17px #E8F1F3;
+    border-radius: 10px;
+    padding: 40px 60px;
+    width: 320px;
+    height: max-content; }
+    .why-proudies-section .card .sub-title {
+      font: normal normal 500 18px/27px Poppins;
+      color: #000000;
+      border-bottom: 3px solid #8BB8C0; }
 
 @media screen and (min-width: 1200px) {
   .container-1640 {
