@@ -1,0 +1,137 @@
+.checkout-header {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+  max-width: 100%;
+}
+.checkout-accordion {
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  .card {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #D1D6E9!important;
+    &:last-child{
+      border-bottom: 0!important;
+    }
+  }
+  .card-header {
+    background-color: transparent;
+    border: 0;
+     .btn-link {
+       display: flex;
+       align-items: center;
+       font: normal normal 600 18px/26px Muli;
+       letter-spacing: 0px;
+       color: #2A2A2A;
+       &:hover,
+       &:focus {
+         text-decoration: none;
+       }
+       .step {
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font: normal normal 600 18px/26px Muli;
+         letter-spacing: 0;
+         color: #004C8A;
+         background: #FFFFFF 0 0 no-repeat padding-box;
+         border: 1px solid #4F99D5;
+         margin-right: 30px;
+         &.is-completed {
+           background: #4CAE49 0 0 no-repeat padding-box;
+           color: #ffffff;
+           border: 1px solid #4CAE49;
+         }
+       }
+     }
+  }
+
+  .card-body {
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    padding-top: 0;
+    .abs {
+      position: absolute;
+      right: 40px;
+      top:-35px;
+    }
+    label {
+      font: normal normal 400 16px/24px Muli;
+      color: #2A2A2A;
+      white-space: nowrap;
+    }
+    .form-control {
+      background: #FFFFFF 0 0 no-repeat padding-box;
+      border: 1px solid #DBDBDB;
+      border-radius: 10px;
+    }
+    p {
+      font: normal normal 400 14px/20px Muli;
+      color: #A5A5A5;
+    }
+    .info-text {
+      font: normal normal 400 14px/20px Muli;
+      color: #2A2A2A;
+    }
+  }
+  .add_card_title {
+    font: normal normal 400 16px/24px Muli;
+    color: #4F99D5;
+  }
+  .w-50 {
+    @media (max-width: 991px) {
+      width: 100% !important;
+    }
+  }
+}
+.total_price-card {
+  padding: 20px 40px;
+  border-bottom: 1px solid #D1D6E9!important;
+  &:last-child {
+    border-bottom: 0!important;
+  }
+  .info-text {
+    width: 25%;
+    font: normal normal 600 18px/26px Muli;
+    color: #2A2A2A;
+    margin-bottom: 8px;
+  }
+  .price {
+    width: 25%;
+    font: normal normal 600 18px/26px Muli;
+    color: #FF8400;
+  }
+  .w-25 {
+    @media (max-width: 991px) {
+      width: 100% !important;
+    }
+  }
+}
+.my_cart_block {
+  width: 368px;
+  .title {
+    font: normal normal 600 18px/26px Muli;
+    color: #004C8A;
+  }
+  .product_description {
+    font: normal normal 400 14px/20px Muli;
+    color: #2A2A2A;
+    margin-bottom: 8px;
+  }
+  .product_weight {
+    font: normal normal 400 14px/20px Muli;
+    color: #A2A2A2;
+  }
+  .product_price {
+    font: normal normal 600 16px/24px Muli;
+    color: #FF8400;
+  }
+  @media (max-width: 991px) {
+   display: none!important;
+  }
+}

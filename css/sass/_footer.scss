@@ -1,0 +1,30 @@
+footer{
+    background-color: $base-blue;
+    .form-control {
+        border-radius: 20px;
+    }
+    h3 {
+        font: normal normal 600 18px/25px Poppins;
+        color: $black;
+        white-space: nowrap;
+    }
+    ul {
+        li {
+            a{
+                line-height: 16px;
+                white-space: nowrap;
+                font: normal normal 400 16px/27px Poppins;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .social-icon {
+        a {
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+    }
+}
