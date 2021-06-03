@@ -148,6 +148,7 @@ button:focus {
   height: 500px;
   margin: 0 6px 20px;
   overflow: hidden;
+  flex: 0 0 32%;
   .shopping-card_img  {
     img {
       width: 100%;
@@ -167,9 +168,15 @@ button:focus {
     font: normal normal 600 25px/38px Poppins;
     color: #000000;
   }
-
   @media (max-width: 1470px) {
     margin: 0 6px 10px;
+    flex: 0 0 49%;
+  }
+  @media (max-width: 1200px) {
+    flex: 0 0 45%;
+  }
+  @media (max-width: 992px) {
+    flex: 0 0 100%;
   }
 }
 

@@ -185,7 +185,8 @@ button:focus {
   width: 100%;
   height: 500px;
   margin: 0 6px 20px;
-  overflow: hidden; }
+  overflow: hidden;
+  flex: 0 0 32%; }
   .shopping-card .shopping-card_img img {
     width: 100%;
     height: 307px;
@@ -201,7 +202,14 @@ button:focus {
     color: #000000; }
   @media (max-width: 1470px) {
     .shopping-card {
-      margin: 0 6px 10px; } }
+      margin: 0 6px 10px;
+      flex: 0 0 49%; } }
+  @media (max-width: 1200px) {
+    .shopping-card {
+      flex: 0 0 45%; } }
+  @media (max-width: 992px) {
+    .shopping-card {
+      flex: 0 0 100%; } }
 
 .qtySelector {
   width: 107px;
@@ -243,6 +251,12 @@ header {
   align-items: center;
   padding: 0 15px;
   box-shadow: 0 0 6px #00000029; }
+  header .dropdown {
+    margin-left: 30px; }
+    header .dropdown .nav-link {
+      cursor: pointer;
+      color: #000000;
+      padding: 0 !important; }
   header .nav-item {
     margin-left: 30px; }
     header .nav-item .nav-link {
@@ -275,6 +289,8 @@ header {
       position: absolute;
       right: 0;
       top: 20px; } }
+  header .dropdown-menu {
+    top: 58px; }
 
 footer {
   background-color: #8BB8C0; }
@@ -754,7 +770,8 @@ body {
     white-space: nowrap; }
 .course-single-page .section2 .bg-light-blue ul a {
   font: normal normal 500 16px/25px Poppins;
-  color: #000000; }
+  color: #8BB8C0;
+  padding: 0 15px; }
 .course-single-page .section2 .card {
   background: #FFFFFF 0 0 no-repeat padding-box;
   box-shadow: 0 0 6px #00000029;
@@ -775,6 +792,9 @@ body {
   .course-single-page .section2 .card .price {
     font: normal normal 500 25px/26px Poppins;
     color: #000000; }
+  @media (max-width: 576px) {
+    .course-single-page .section2 .card {
+      width: 320px; } }
 
 .bg-light-blue {
   background-color: #E8F1F3; }
@@ -811,11 +831,41 @@ a.btn-link {
   background-size: 100%;
   padding: 21%; }
 
+.course-overView-page .course-overView-bg {
+  background-image: url("../../img/courseOverview/Group 1856.png"); }
+
+.course-tags ul li a {
+  border: 1px solid #8BB8C0;
+  border-radius: 27px;
+  background-color: #ffffff;
+  font: normal normal 400 14px/21px Poppins;
+  color: #000000;
+  padding: 5px 15px;
+  margin: 5px;
+  white-space: nowrap;
+  display: block; }
+.course-tags ul li.active a {
+  background-color: #8BB8C0;
+  color: #FFFFFF; }
+
+.pagination .page-item .page-link {
+  font: normal normal 500 18px/27px Poppins;
+  color: #000000;
+  border: 0;
+  border-radius: 5px; }
+  .pagination .page-item .page-link:hover {
+    background-color: transparent;
+    border: 0;
+    outline: none; }
+.pagination .page-item.active .page-link {
+  background-color: #FBCA9A; }
+
 @media screen and (min-width: 1200px) {
   .container-1640 {
-    max-width: 1640px; }
+    max-width: 1740px;
+    padding: 0 50px; }
 
   .container-1520 {
-    max-width: 1520px; } }
+    max-width: 1250px; } }
 
 /*# sourceMappingURL=main.css.map */
