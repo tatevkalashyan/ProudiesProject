@@ -35,6 +35,39 @@ $(document).ready(function() {
     });
 
 
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+                $('#imagePreview').hide();
+                $('#imagePreview').fadeIn(650);
+
+
+                var attr = $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+
+                if (attr !== ' ') {
+                    $("#imageUpload-label").hide();
+                }
+                var showOnHover = $("#imagePreview[style]");
+
+                $(showOnHover).hover(function () {
+                    $(".banner-edit").toggleClass("show");
+                })
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    $("#imageUpload").change(function() {
+        readURL(this);
+    });
+
+
+
+
+
+
 });
 
 

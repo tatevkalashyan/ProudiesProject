@@ -24,6 +24,10 @@ header {
             cursor: pointer;
             color: $black;
             padding: 0!important;
+            font: normal normal 400 16px/25px Poppins;
+            @media (max-width: 1200px) {
+                font: normal normal 400 14px/25px Poppins;
+            }
         }
         &:hover,
         &.active {
