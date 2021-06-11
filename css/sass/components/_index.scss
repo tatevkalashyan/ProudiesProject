@@ -699,3 +699,15 @@ a.btn-link {
   justify-content: center;
 
 }
+.checkout-section {
+  .border-blue {
+    border: 1px solid #8BB8C0;
+  }
+  .form-control {
+    height: 51px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 0 6px #0000001C;
+    border-radius: 5px;
+    border: 0;
+  }
+}

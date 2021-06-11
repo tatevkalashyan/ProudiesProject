@@ -118,6 +118,10 @@ button:focus {
 .br-10 {
   border-radius: 10px; }
 
+.yellow-hr {
+  background-color: #FBCA9A;
+  height: 4px; }
+
 .blue-btn {
   min-width: 140px;
   height: 45px;
@@ -1028,6 +1032,15 @@ a.btn-link {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.checkout-section .border-blue {
+  border: 1px solid #8BB8C0; }
+.checkout-section .form-control {
+  height: 51px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 0 6px #0000001C;
+  border-radius: 5px;
+  border: 0; }
 
 @media screen and (min-width: 1200px) {
   .container-1640 {

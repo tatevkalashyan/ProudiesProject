@@ -71,7 +71,10 @@ button:focus {
   border-radius: 10px;
 }
 
-
+.yellow-hr {
+  background-color: $base-yellow;
+  height: 4px;
+}
 .blue-btn {
   min-width: 140px;
   height: 45px;
