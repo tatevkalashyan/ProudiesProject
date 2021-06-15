@@ -1042,6 +1042,10 @@ a.btn-link {
   border-radius: 5px;
   border: 0; }
 
+.total-price {
+  font: normal normal 600 25px/38px Poppins;
+  color: #000000; }
+
 @media screen and (min-width: 1200px) {
   .container-1640 {
     max-width: 1740px;
