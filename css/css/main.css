@@ -282,6 +282,23 @@ button:focus {
     display: block !important;
     position: relative !important; }
 
+.form-control {
+  border: 0;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 0 6px #0000001C;
+  border-radius: 5px; }
+
+.border-bottom {
+  border-bottom: 1px solid #8bb8c0 !important; }
+
+.btn-blue-text {
+  font: normal normal 400 20px/30px Poppins;
+  color: #8BB8C0; }
+
+.form-check-label {
+  font: normal normal 500 16px/25px Poppins;
+  color: #373737; }
+
 header {
   font-size: 16px;
   line-height: 25px;
@@ -1045,6 +1062,26 @@ a.btn-link {
 .total-price {
   font: normal normal 600 25px/38px Poppins;
   color: #000000; }
+
+.black-title {
+  font: normal normal 600 25px/38px Poppins;
+  color: #000000; }
+
+.account-image {
+  position: relative;
+  overflow: hidden; }
+  .account-image .account-image-edit {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer; }
+  .account-image:hover .account-image-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 @media screen and (min-width: 1200px) {
   .container-1640 {

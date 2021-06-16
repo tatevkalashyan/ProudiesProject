@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/css/main.css">
 </head>
+
 <body>
 <header class="navigation-wrap">
-    <div class="container container-1640">
+    <div class="container-1640 container">
         <nav class="navbar navbar-expand-lg w-100">
             <div class="w-100 d-lg-flex  justify-content-lg-between align-items-center">
                 <div class="d-flex align-items-center">
@@ -47,7 +48,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="aboutUs.html">About Us</a>
                             </li>
-<!--                            <li class="nav-item active">-->
+<!--                            <li class="nav-item">-->
 <!--                                <a class="nav-link" href="orders.html">Orders</a>-->
 <!--                            </li>-->
                             <li class="mt-lg-0 mt-3">
@@ -62,7 +63,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down color-light-blue"></i> Cart(0)</a>
+                                        <a class="nav-link" href="cart.html"><i class="fas fa-cart-arrow-down color-light-blue"></i> Cart(0)</a>
                                     </li>
                                 </ul>
                             </li>
@@ -73,93 +74,116 @@
         </nav>
     </div>
 </header>
-<main>
-    <section class="form-section">
-        <div class="container container-1640 py-5">
-            <div class="d-flex w-100 pr-5 pl-4 mb-3 orders-title">
-                <div class="col-lg-4 d-none d-lg-block">Course Name</div>
-                <div class="mx-auto d-none d-lg-block">Quantity</div>
-                <div class="mx-auto d-none d-lg-block">Price</div>
-                <div class="mx-auto d-none d-lg-block">Total Price</div>
-            </div>
-            <div class="alert bg-light-blue alert-dismissible p-3 fade show" role="alert">
-                <div class="d-flex order-card pr-5 align-items-center justify-content-lg-between flex-wrap">
-                    <div class="d-flex align-items-center  col-lg-4 col-12">
-                        <div class="mr-3" style="min-width: 157px; max-width: 157px; height: 134px; overflow: hidden; border-radius: 5px">
-                            <img src="img/cart/fallon-michael-1yZI30karxI-unsplash.png" alt="" >
-                        </div>
-                        <div>
-                            <div class="color-base">Course Name</div>
-                            <div class="color-yellow">Arts and entertainment</div>
-                            <div>14 Lesson</div>
-                        </div>
+<main class="user-account-page">
+    <section>
+        <div class="container d-flex justify-content-center">
+            <form action="#">
+                <div class="d-flex align-items-start py-5 border-bottom">
+                    <div class="account-image  mr-5">
+                        <div class="account-image-edit"><img src="img/upload-icon.svg" alt="" width="38" height="34"></div>
                     </div>
-                    <div class="flex-1 d-flex align-items-center justify-content-lg-around">
-                        <div class="qtySelector text-center">
-                            <i class="fa fa-minus decreaseQty"></i>
-                            <input type="text" class="qtyValue" value="1" placeholder="kg" />
-                            <i class="fa fa-plus increaseQty"></i>
+                    <div>
+                        <div class="d-flex">
+                            <div class="form-group col-lg-6">
+                                <label for="first-name">First Name</label>
+                                <input type="text" class="form-control" id="first-name">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName">
+                            </div>
                         </div>
-                        <div class="price mx-auto">$ 20.00</div>
-                        <div class="total-price mx-auto">$ 20.00</div>
-                    </div>
-                </div>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="alert bg-light-blue alert-dismissible p-3 fade show" role="alert">
-                <div class="d-flex order-card pr-5 align-items-center justify-content-lg-between flex-wrap">
-                    <div class="d-flex align-items-center  col-lg-4 col-12">
-                        <div class="mr-3" style="min-width: 157px; max-width: 157px; height: 134px; overflow: hidden; border-radius: 5px">
-                            <img src="img/cart/boris-dunand-FLzsXmNpNY8-unsplash.png" alt="" >
+                        <div class="d-flex">
+                            <div class="form-group col-lg-6">
+                                <label for="PhoneNumber">Phone Number</label>
+                                <input type="number" class="form-control" id="PhoneNumber">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
                         </div>
-                        <div>
-                            <div class="color-base">Course Name</div>
-                            <div class="color-yellow">Arts and entertainment</div>
-                            <div>14 Lesson</div>
+                        <div class="d-flex">
+                            <div class="form-group col-lg-6">
+                                <label for="Location">Location</label>
+                                <input type="text" class="form-control" id="Location">
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex-1 d-flex align-items-center justify-content-lg-around">
-                        <div class="qtySelector text-center">
-                            <i class="fa fa-minus decreaseQty"></i>
-                            <input type="text" class="qtyValue" value="1" placeholder="kg" />
-                            <i class="fa fa-plus increaseQty"></i>
-                        </div>
-                        <div class="price mx-auto">$ 20.00</div>
-                        <div class="total-price mx-auto">$ 20.00</div>
                     </div>
                 </div>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="alert bg-light-blue alert-dismissible p-3 fade show" role="alert">
-                <div class="d-flex order-card pr-5 align-items-center justify-content-lg-between flex-wrap">
-                    <div class="d-flex align-items-center col-lg-4 col-12">
-                        <div class="mr-3" style="min-width: 157px; max-width: 157px; height: 134px; overflow: hidden; border-radius: 5px">
-                            <img src="img/cart/wes-hicks-MEL-jJnm7RQ-unsplash.png" alt="" >
+                <div  class="py-3 border-bottom">
+                    <div class="black-title py-4">Change Password</div>
+                    <div class="col-lg-8 p-0">
+                        <div class="d-flex">
+                            <div class="form-group col-lg-6">
+                                <label for="CurrentPassword">Current Password</label>
+                                <input type="password" class="form-control" id="CurrentPassword">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="newPassword">New Password</label>
+                                <input type="password" class="form-control" id="newPassword">
+                            </div>
                         </div>
-                        <div>
-                            <div class="color-base">Course Name</div>
-                            <div class="color-yellow">Arts and entertainment</div>
-                            <div>14 Lesson</div>
+                        <div class="d-flex">
+                            <div class="form-group col-lg-6">
+                                <label for="ConfirmNewPassword">Confirm New Password</label>
+                                <input type="password" class="form-control" id="ConfirmNewPassword">
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex-1 d-flex align-items-center justify-content-lg-around">
-                        <div class="qtySelector text-center">
-                            <i class="fa fa-minus decreaseQty"></i>
-                            <input type="text" class="qtyValue" value="1" placeholder="kg" />
-                            <i class="fa fa-plus increaseQty"></i>
-                        </div>
-                        <div class="price mx-auto">$ 20.00</div>
-                        <div class="total-price mx-auto">$ 20.00</div>
                     </div>
                 </div>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
+                <div  class="pt-3 pb-5">
+                    <div class="black-title py-4">Add Card</div>
+                    <div  class="col-lg-8">
+                        <div class="">
+                            <div class="form-group">
+                                <label for="NameCard">Name on Card</label>
+                                <input type="text" class="form-control" id="NameCard" placeholder="As show on the card">
+                            </div>
+                            <div class="form-group">
+                                <label for="CardNumber">Card Number</label>
+                                <input type="password" class="form-control" id="CardNumber">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="form-group col-lg-8 p-0">
+                                <label>Expiry Date</label>
+                                <div class="d-flex">
+                                    <select class="form-control mr-2">
+                                        <option disabled selected>Month</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                    <select class="form-control ml-2">
+                                        <option disabled selected>Year</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-4 pr-0">
+                                <label for="cvv">CVV</label>
+                                <input type="number" class="form-control" id="cvv" placeholder="CVV">
+                            </div>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Save Credit card information for the next time.</label>
+                        </div>
+                        <div role="button" class="btn-link btn-blue-text my-4">
+                            + Add New Card
+                        </div>
+                        <div class="d-flex">
+                            <button type="submit" class="yellow-btn mr-2">Save</button>
+                            <button type="submit" class="gray-btn px-5 border-0">Delete my account</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 </main>
@@ -212,8 +236,40 @@
 <script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#carousel1").owlCarousel({
+            baseClass : "owl-carousel",
+            theme : "owl-theme",
+            autoplay: true,
+            lazyLoad: true,
+            loop: true,
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 1000,
+            dots: true,
+            items: 3,
+            margin: 0,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                800: {
+                    items: 2
+                },
+
+                1200: {
+                    items: 3
+                }
+            },
+        });
+    });
+</script>
 <script  src="js/main.js"></script>
 </body>
 
 </html>
+
 

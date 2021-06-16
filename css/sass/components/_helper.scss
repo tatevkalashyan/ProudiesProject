@@ -255,3 +255,20 @@ button:focus {
     position: relative!important;
   }
 }
+.form-control {
+  border: 0;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 0 6px #0000001C;
+  border-radius: 5px;
+}
+.border-bottom {
+  border-bottom: 1px solid #8bb8c0!important;
+}
+.btn-blue-text {
+  font: normal normal 400 20px/30px Poppins;
+  color: #8BB8C0;
+}
+.form-check-label {
+  font: normal normal 500 16px/25px Poppins;
+  color: #373737;
+}
