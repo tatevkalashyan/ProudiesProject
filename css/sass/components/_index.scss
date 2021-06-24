@@ -599,6 +599,11 @@ a.btn-link {
   .total-price {
     font: normal normal 500 25px/38px Poppins;
     color: #000000;
+    @media (max-width: 768px) {
+      font: normal normal 500 20px/38px Poppins;
+      color: #000000;
+      white-space: nowrap;
+    }
   }
 }
 .orders-title {
@@ -684,10 +689,10 @@ a.btn-link {
       border: 1px solid #8BB8C0;
     }
   }
-  .yellow-link  {
-    font: normal normal 400 16px/25px Poppins;
-    color: #FF9E3E;
-  }
+}
+.yellow-link  {
+  font: normal normal 400 16px/25px Poppins;
+  color: #FF9E3E;
 }
 .upload-banner-img {
   background-color: #8BB8C0;
@@ -738,3 +743,62 @@ a.btn-link {
     }
   }
 }
+.teacher-account-page {
+  .bg-cover {
+    background: url("../../img/victoria-bilsborough-U-ouhtPgHH4-unsplash.png");
+    background-size: cover;
+    height: 400px;
+    margin-bottom: -13%;
+  }
+  .bg-white {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 482px;
+    width: 100%;
+    min-height: 760px;
+  }
+  .account-image {
+    background-image: url("../../img/steve-johnson-xXPXAVu-Ufg-unsplash.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #8888;
+  }
+  .about-me-text {
+    font: normal normal 400 16px/21px Segoe UI;
+    color: #000000;
+  }
+  .nav-tabs .nav-link {
+    background-color: #fff;
+    border-color: transparent;
+    font: normal normal 400 16px/20px Poppins;
+    color: #000000!important;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #8BB8C0;
+    border-radius: 25px;
+  }
+}
+
+.add-course_section {
+  .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: $black;
+    &.border-bottom {
+      border-bottom: 2px solid #FBCA9A!important;
+    }
+  }
+  .form-control {
+    min-height: 60px;
+  }
+}
+

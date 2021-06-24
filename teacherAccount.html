@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Proudies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/secondary/owl-carousel-min.css">
+    <link rel="stylesheet" href="css/secondary/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css/main.css">
+</head>
+
+<body>
+<header class="navigation-wrap">
+    <div class="container-1640 container">
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="w-100 d-lg-flex  justify-content-lg-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand " href="index.html" >
+                        <span class="color-base">Logo</span><span class="color-yellow">Name</span>
+                    </a>
+                </div>
+                <div>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse"
+                            aria-controls="navbar-collapse"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="CourseOverview.html">Course overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="howItWorks.html">How It Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutUs.html">About Us</a>
+                            </li>
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="orders.html">Orders</a>-->
+                            <!--                            </li>-->
+                            <li class="mt-lg-0 mt-3">
+                                <ul class="list-unstyled d-flex align-items-center">
+                                    <li class="dropdown">
+                                        <a class="nav-link" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-user color-light-blue"></i> Name Surname <i class="fa fa-angle-down ml-1"></i> </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" href="userAccount.html">My Profile</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Log Out</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="cart.html"><i class="fas fa-cart-arrow-down color-light-blue"></i> Cart(0)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main class="teacher-account-page">
+    <section>
+        <div class="bg-cover"></div>
+        <div class="container container-1640">
+            <div class="d-flex align-items-end ">
+                <div class="bg-white text-center mr-5">
+                    <div class="account-image mx-auto mb-3"></div>
+                    <h4 class="mb-2 name">Name Surname</h4>
+                    <h6 class="color-yellow mb-">Painting Teacher</h6>
+                    <div>
+                        <a href="editTeacherAccount.html" class="blue-btn mb-3 mw-214 mx-auto" role="button">Edit your account</a>
+                        <a class="yellow-btn mb-3 mw-214 mx-auto text-white text-uppercase" role="button" id="add-course">+ ADD Course</a>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <ul class="list-unstyled p-0 text-left">
+                            <li class="mb-3">
+                                <img src="img/phone%20(5).svg" alt="" class="mr-3">+12455 656 89</li>
+                            <li class="mb-3">
+                                <img src="img/mail%20(3).svg" alt="" class="mr-3">example@gmail.com</li>
+                            <li class="mb-3">
+                                <img src="img/map-pin%20(8).svg" alt="" class="mr-3">New York City</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6 class="text-center color-yellow">About me</h6>
+                        <p class="about-me-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        </p>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <ul class="nav nav-tabs border-bottom-0" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Courses</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="Payment-tab" data-toggle="tab" href="#Payment" role="tab" aria-controls="Payment" aria-selected="false">Payment</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="Draft-tab" data-toggle="tab" href="#Draft" role="tab" aria-controls="Draft" aria-selected="false">Draft</a>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <img src="img/Group%201873.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="tab-content mt-5 section-toggle" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <section>
+                <div class="container container-1640">
+                    <div class="d-xl-flex align-items-start py-5 w-100">
+                        <div class="shopping-card">
+                            <div class="shopping-card_img">
+                                <img src="img/CourseSinglePage/cart-img.png" alt="">
+                            </div>
+                            <div class="d-flex px-4 py-3">
+                                <div class="d-flex flex-1 flex-column align-items-start">
+                                    <div class="title">
+                                        Lorem Ipsum is simply
+                                    </div>
+                                    <div class="info-text">
+                                        Lorem Ipsum
+                                    </div>
+                                    <div class="d-flex mr-3 mb-4">
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                    </div>
+                                    <a href="#" class="btn-link">Learn More >></a>
+                                </div>
+                                <div class="d-flex flex-1 flex-column align-items-end">
+                                    <div class="price mb-4">
+                                        20.00 $
+                                    </div>
+                                    <div class="gray-text">Available Spots 20</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 ml-lg-4">
+                            <h6 class="mb-3">Course content</h6>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <a href="#" class="yellow-link">View More >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-flex align-items-start  py-5 w-100">
+                        <div class="shopping-card">
+                            <div class="shopping-card_img">
+                                <img src="img/CourseSinglePage/cart-img.png" alt="">
+                            </div>
+                            <div class="d-flex px-4 py-3">
+                                <div class="d-flex flex-1 flex-column align-items-start">
+                                    <div class="title">
+                                        Lorem Ipsum is simply
+                                    </div>
+                                    <div class="info-text">
+                                        Lorem Ipsum
+                                    </div>
+                                    <div class="d-flex mr-3 mb-4">
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                    </div>
+                                    <a href="#" class="btn-link">Learn More >></a>
+                                </div>
+                                <div class="d-flex flex-1 flex-column align-items-end">
+                                    <div class="price mb-4">
+                                        20.00 $
+                                    </div>
+                                    <div class="gray-text">Available Spots 20</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 ml-lg-4">
+                            <h6 class="mb-3">Course content</h6>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <a href="#" class="yellow-link">View More >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tab-pane fade" id="Payment" role="tabpanel" aria-labelledby="Payment-tab">
+            <section>
+                <div class="container container-1640">
+                    <h2 class="section-title left mt-5">Payment</h2>
+                    <div class="d-xl-flex align-items-start py-5 w-100">
+                        <div class="shopping-card">
+                            <div class="shopping-card_img">
+                                <img src="img/CourseSinglePage/cart-img.png" alt="">
+                            </div>
+                            <div class="d-flex px-4 py-3">
+                                <div class="d-flex flex-1 flex-column align-items-start">
+                                    <div class="title">
+                                        Lorem Ipsum is simply
+                                    </div>
+                                    <div class="info-text">
+                                        Lorem Ipsum
+                                    </div>
+                                    <div class="d-flex mr-3 mb-4">
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                    </div>
+                                    <a href="#" class="btn-link">Learn More >></a>
+                                </div>
+                                <div class="d-flex flex-1 flex-column align-items-end">
+                                    <div class="price mb-4">
+                                        20.00 $
+                                    </div>
+                                    <div class="gray-text">Available Spots 20</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 ml-lg-4">
+                            <h6 class="mb-3">Course content</h6>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <a href="#" class="yellow-link">View More >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-flex align-items-start  py-5 w-100">
+                        <div class="shopping-card">
+                            <div class="shopping-card_img">
+                                <img src="img/CourseSinglePage/cart-img.png" alt="">
+                            </div>
+                            <div class="d-flex px-4 py-3">
+                                <div class="d-flex flex-1 flex-column align-items-start">
+                                    <div class="title">
+                                        Lorem Ipsum is simply
+                                    </div>
+                                    <div class="info-text">
+                                        Lorem Ipsum
+                                    </div>
+                                    <div class="d-flex mr-3 mb-4">
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                    </div>
+                                    <a href="#" class="btn-link">Learn More >></a>
+                                </div>
+                                <div class="d-flex flex-1 flex-column align-items-end">
+                                    <div class="price mb-4">
+                                        20.00 $
+                                    </div>
+                                    <div class="gray-text">Available Spots 20</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 ml-lg-4">
+                            <h6 class="mb-3">Course content</h6>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <a href="#" class="yellow-link">View More >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tab-pane fade" id="Draft" role="tabpanel" aria-labelledby="Draft-tab">
+            <section>
+                <div class="container container-1640">
+                    <h2 class="section-title left mt-5">Draft</h2>
+                    <div class="d-xl-flex align-items-start py-5 w-100">
+                        <div class="shopping-card">
+                            <div class="shopping-card_img">
+                                <img src="img/CourseSinglePage/cart-img.png" alt="">
+                            </div>
+                            <div class="d-flex px-4 py-3">
+                                <div class="d-flex flex-1 flex-column align-items-start">
+                                    <div class="title">
+                                        Lorem Ipsum is simply
+                                    </div>
+                                    <div class="info-text">
+                                        Lorem Ipsum
+                                    </div>
+                                    <div class="d-flex mr-3 mb-4">
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                    </div>
+                                    <a href="#" class="btn-link">Learn More >></a>
+                                </div>
+                                <div class="d-flex flex-1 flex-column align-items-end">
+                                    <div class="price mb-4">
+                                        20.00 $
+                                    </div>
+                                    <div class="gray-text">Available Spots 20</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 ml-lg-4">
+                            <h6 class="mb-3">Course content</h6>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <a href="#" class="yellow-link">View More >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-flex align-items-start  py-5 w-100">
+                        <div class="shopping-card">
+                            <div class="shopping-card_img">
+                                <img src="img/CourseSinglePage/cart-img.png" alt="">
+                            </div>
+                            <div class="d-flex px-4 py-3">
+                                <div class="d-flex flex-1 flex-column align-items-start">
+                                    <div class="title">
+                                        Lorem Ipsum is simply
+                                    </div>
+                                    <div class="info-text">
+                                        Lorem Ipsum
+                                    </div>
+                                    <div class="d-flex mr-3 mb-4">
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                        <i class="fa fa-star mr-1 color-yellow"></i>
+                                    </div>
+                                    <a href="#" class="btn-link">Learn More >></a>
+                                </div>
+                                <div class="d-flex flex-1 flex-column align-items-end">
+                                    <div class="price mb-4">
+                                        20.00 $
+                                    </div>
+                                    <div class="gray-text">Available Spots 20</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 ml-lg-4">
+                            <h6 class="mb-3">Course content</h6>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex align-items-center p-3 br-10 border mb-3">
+                                <div class="color-light-blue mr-3">Les 1:</div>
+                                <div class="flex-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                <div class="date"><i class="far fa-calendar mr-1"></i>20/05/21 <i class="far fa-clock mr-1 ml-2"></i>12:00</div>
+                                <div role="button" class="gray-btn px-3">Join Lesson</div>
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <a href="#" class="yellow-link">View More >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="add-course_section section-toggle d-none pb-5">
+        <div class="container container-1640">
+            <h2 class="title text-left border-bottom mt-5 py-2">Add Course</h2>
+            <div class="d-flex flex-lg-row flex-column align-items-lg-start justify-content-lg-around mt-5">
+                <div class="col-lg-4 px-5">
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="Description">Description</label>
+                        <textarea type="text" id="Description" name="" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="Category">Category</label>
+                        <select class="form-control mr-3" id="Category">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Price">Price</label>
+                        <input type="number" id="Price" name="" class="form-control">
+                    </div>
+                    <div class="d-flex">
+                        <div class="form-group mr-5">
+                            <label for="AddPhotos">Add Photos</label>
+                            <input type="file" id="AddPhotos" name="" class="form-control" hidden="hidden" >
+                            <img src="img/Group%201875.svg" alt="">
+                        </div>
+                        <div class="form-group">
+                            <label for="AddVideos">Add Videos</label>
+                            <input type="file" id="AddVideos" name="" class="form-control" hidden="hidden" >
+                            <img src="img/Group%201874.svg" alt="">
+                        </div>
+                    </div>
+                    <div role="button" class="yellow-btn mt-5 mw-214">Preview</div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="pr-lg-5 col-lg-10">
+                        <div class="form-group">
+                            <label for="Max_Number">Max Students Number</label>
+                            <input type="number" id="Max_Number" name="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Number_lesson">Number of lesson</label>
+                            <input type="number" id="Number_lesson" name="" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="px-5 py-3 bg-light-blue br-10">
+                        <div class="form-group">
+                            <label for="LessonName">LessonName</label>
+                            <input type="text" id="LessonName" name="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Lesson_Description">Lesson Description</label>
+                            <input type="text" id="Lesson_Description" name="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Lesson_Date">Lesson Date</label>
+                            <input type="date" id="Lesson_Date" name="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Lesson_Time">Lesson Time</label>
+                            <input type="time" id="Lesson_Time" name="" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us yellow-bg">
+        <div class="container pt-5">
+            <div class="col-lg-6 mx-auto py-5">
+                <h2 class="mb-4 text-center text-uppercase">call-to-action</h2>
+                <form action="#" class="w-100">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="email" class="form-control" id="name" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Text</label>
+                        <textarea name="textarea" id="textarea" cols="10" class="form-control" >Your Text here</textarea>
+                    </div>
+                    <button type="submit" class="yellow-btn mx-auto mt-5">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="py-5">
+    <div class="container container-1640">
+        <div class="d-flex flex-wrap mx-auto py-5 w-100 justify-content-between">
+            <div class="flex-1 pr-2">
+                <h3>Categories</h3>
+                <ul class="list-unstyled ">
+                    <li><a href="#">Digital Skills</a></li>
+                    <li><a href="#">Health and Safety</a></li>
+                    <li><a href="#">Communication and Languages</a></li>
+                    <li><a href="#">Sales Courses</a></li>
+                    <li><a href="#">Productivity Courses</a></li>
+                </ul>
+            </div>
+            <div class="flex-1 pr-2">
+                <h3>Online Courses</h3>
+                <ul class="list-unstyled ">
+                    <li><a href="#">Digital Skills</a></li>
+                    <li><a href="#">Health and Safety</a></li>
+                    <li><a href="#">Communication and Languages</a></li>
+                    <li><a href="#">Sales Courses</a></li>
+                    <li><a href="#">Productivity Courses</a></li>
+                </ul>
+            </div>
+            <div class="flex-1 pr-2">
+                <h3 class="">Courses</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Course Overview</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="flex-1 social-icon">
+                <h3 class="">Follow Us</h3>
+                <ul class="list-unstyled d-flex">
+                    <li class="mr-3"><a href="#"><i class="fab fa-facebook-square color-yellow"></i></a></li>
+                    <li class="mr-3"><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                    <li class="mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="mr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#carousel1").owlCarousel({
+            baseClass : "owl-carousel",
+            theme : "owl-theme",
+            autoplay: true,
+            lazyLoad: true,
+            loop: true,
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 1000,
+            dots: true,
+            items: 3,
+            margin: 0,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                800: {
+                    items: 2
+                },
+
+                1200: {
+                    items: 3
+                }
+            },
+        });
+    });
+</script>
+<script  src="js/main.js"></script>
+</body>
+
+</html>
+
+

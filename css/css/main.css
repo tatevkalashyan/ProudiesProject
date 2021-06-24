@@ -88,17 +88,23 @@ button:focus {
 .h-40 {
   height: 40px !important; }
 
+.mw-214 {
+  max-width: 214px; }
+
 .color-base {
   color: #000000; }
 
 .color-yellow {
-  color: #FBCA9A !important; }
+  color: #fbca9a !important; }
 
 .color-light-blue {
   color: #8BB8C0 !important; }
 
 .color-red {
   color: #FF0000 !important; }
+
+.color-dark-red {
+  color: #8E487B; }
 
 .fs-10 {
   font-size: 10px; }
@@ -119,7 +125,7 @@ button:focus {
   border-radius: 10px; }
 
 .yellow-hr {
-  background-color: #FBCA9A;
+  background-color: #fbca9a;
   height: 4px; }
 
 .blue-btn {
@@ -136,13 +142,13 @@ button:focus {
   transition: all 0.3s;
   cursor: pointer; }
   .blue-btn:hover {
-    background-color: #FBCA9A;
+    background-color: #fbca9a;
     color: #000000 !important; }
 
 .yellow-btn, .yellow-btn-bordered {
   min-width: 140px;
   height: 45px;
-  background: #FBCA9A 0 0 no-repeat padding-box;
+  background: #fbca9a 0 0 no-repeat padding-box;
   border-radius: 23px;
   text-align: center;
   display: flex;
@@ -160,7 +166,7 @@ button:focus {
 
 .yellow-btn-bordered {
   cursor: pointer;
-  border: 1px solid #FBCA9A;
+  border: 1px solid #fbca9a;
   background-color: #FFFFFF;
   border-radius: 23px; }
   .yellow-btn-bordered:hover {
@@ -544,7 +550,7 @@ body {
     width: 50px;
     height: 5px;
     border-radius: 3px;
-    background-color: #FBCA9A;
+    background-color: #fbca9a;
     position: absolute;
     margin: 0 auto;
     top: -5px;
@@ -926,14 +932,14 @@ a.btn-link {
     border: 0;
     outline: none; }
 .pagination .page-item.active .page-link {
-  background-color: #FBCA9A; }
+  background-color: #fbca9a; }
 
 .register-for-teacher-page .section1 {
   background-image: url("../../img/registerForTeacher/Group 1861.png"); }
 .register-for-teacher-page .how-it-works .card-item:hover {
-  background-color: #FBCA9A; }
+  background-color: #fbca9a; }
   .register-for-teacher-page .how-it-works .card-item:hover .a {
-    fill: #FBCA9A; }
+    fill: #fbca9a; }
 
 .why-proudies-section {
   background-color: #e8f1f3; }
@@ -971,6 +977,12 @@ a.btn-link {
   .order-card .total-price {
     font: normal normal 500 25px/38px Poppins;
     color: #000000; }
+    @media (max-width: 768px) {
+      .order-card .price,
+      .order-card .total-price {
+        font: normal normal 500 20px/38px Poppins;
+        color: #000000;
+        white-space: nowrap; } }
 
 .orders-title {
   font: normal normal 500 16px/25px Poppins;
@@ -1038,7 +1050,8 @@ a.btn-link {
   .user-account-page .blue-btn:hover {
     background-color: white;
     border: 1px solid #8BB8C0; }
-.user-account-page .yellow-link {
+
+.yellow-link {
   font: normal normal 400 16px/25px Poppins;
   color: #FF9E3E; }
 
@@ -1082,6 +1095,52 @@ a.btn-link {
     display: flex;
     align-items: center;
     justify-content: center; }
+
+.teacher-account-page .bg-cover {
+  background: url("../../img/victoria-bilsborough-U-ouhtPgHH4-unsplash.png");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: -13%; }
+.teacher-account-page .bg-white {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 10px;
+  padding: 50px;
+  max-width: 482px;
+  width: 100%;
+  min-height: 760px; }
+.teacher-account-page .account-image {
+  background-image: url("../../img/steve-johnson-xXPXAVu-Ufg-unsplash.png");
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #8888; }
+.teacher-account-page .about-me-text {
+  font: normal normal 400 16px/21px Segoe UI;
+  color: #000000; }
+.teacher-account-page .nav-tabs .nav-link {
+  background-color: #fff;
+  border-color: transparent;
+  font: normal normal 400 16px/20px Poppins;
+  color: #000000 !important;
+  padding-left: 40px;
+  padding-right: 40px; }
+.teacher-account-page .nav-tabs .nav-link.active {
+  background-color: #8BB8C0;
+  border-radius: 25px; }
+
+.add-course_section .title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000; }
+  .add-course_section .title.border-bottom {
+    border-bottom: 2px solid #FBCA9A !important; }
+.add-course_section .form-control {
+  min-height: 60px; }
 
 @media screen and (min-width: 1200px) {
   .container-1640 {

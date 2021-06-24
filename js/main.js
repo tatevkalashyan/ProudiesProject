@@ -64,6 +64,10 @@ $(document).ready(function() {
     });
 
 
+    $("#add-course").click(function () {
+        $(".section-toggle").toggleClass("d-none");
+    })
+
 });
 
 
